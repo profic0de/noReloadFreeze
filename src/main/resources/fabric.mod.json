@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "proficode-noreloadfreeze",
+	"version": "1.0.0",
+	"name": "noReloadFreeze",
+	"description": "Ever wanted to disable that annoying freeze on datapack reload? Here it is!",
+	"authors": [
+		"Proficode"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/modid/icon.png",
+	"environment": "server",
+	"entrypoints": {
+		"main": [
+			"com.proficode.noReloadFreeze"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "*",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
